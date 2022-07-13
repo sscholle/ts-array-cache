@@ -1,6 +1,6 @@
-import { ICache } from './ICache';
 import { IStorage } from '../service/IStorage';
 import { JSONLocalStorageService } from '../service/JSONLocalStorageService';
+import { ICache } from './ICache';
 
 /**
  * Stores JSON data in local storage

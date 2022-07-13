@@ -5,7 +5,7 @@ describe("Microwave Sate Machine", () => {
 
     beforeAll(() => {
         // setup a mock locastorage service
-    })
+    });
 
     beforeEach(() => {
         jsonCache = new JSONCache('test');
@@ -15,4 +15,5 @@ describe("Microwave Sate Machine", () => {
         // expect(MicrowaveMachine.start().name).toBe('off');
     });
 
-})
+});
+

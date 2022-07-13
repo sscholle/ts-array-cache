@@ -45,6 +45,6 @@ export class ExpireableCache implements ICache {
   }
 
   remove() {
-    this.cache.remove()
+    this.cache.remove();
   }
 }
