@@ -7,3 +7,9 @@ An array utility that stores array data locally for fast later retreival, ideal 
 - Cache Expiration can be defined and checked to simplify re-fetching data
 - any data as an array is suitable, however, single Objects can also be used as long as it's in an array
 - uses browser Session Storage or Local Storage
+
+## TODO
+- npm publish scripts
+- flesh out tests
+- add more examples
+- flesh out api docs
