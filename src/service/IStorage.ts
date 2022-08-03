@@ -1,5 +1,7 @@
+export type StorageValues = string | null;
+
 export interface IStorage {
-    get: (key: string) => any,
-    set: (key: string, value: any) => void,
+    get: (key: string) => StorageValues,
+    set: (key: string, value: StorageValues) => void,
     remove: (key: string) => void
 }
